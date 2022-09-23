@@ -44,11 +44,3 @@ while it < len(roomsList):
     it += 1
 
 f.mainloop()
-
-
-
-
-
-
-
-f.mainloop()
