@@ -34,7 +34,7 @@ while it < len(roomsList):
     stateList = []
     while k < lampsAmount:
         stateList.insert(k, tk.IntVar())
-        cbList.insert(k, tk.Checkbutton(text=k+1, variable=stateList[k]))
+        cbList.insert(k, tk.Checkbutton(text=k+1, variable=stateList[k], onvalue=1, offvalue=0))
         if k == lampsAmount:
             checkInRoomslists.insert(it, cbList)
         cbList[k].grid(row=it*(lampsAmount+1)+k+1, column=0)
